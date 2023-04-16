@@ -81,14 +81,11 @@ const Form = () => {
   const login = async (values, onSubmitProps) => {
     const loggedInResponse = await fetch("http://localhost:3001/auth/login", {
       method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
     });
     const loggedIn = await loggedInResponse.json();
     onSubmitProps.resetForm();
-
     if (loggedIn) {
       dispatch(
         setLogin({
@@ -194,9 +191,7 @@ const Form = () => {
                         {...getRootProps()}
                         border={`2px dashed ${palette.primary.main}`}
                         p="1rem"
-                        sx={{
-                          "&:hover": { cursor: "pointer" },
-                        }}
+                        sx={{ "&:hover": { cursor: "pointer" } }}
                       >
                         <input {...getInputProps()} />
                         {!values.picture ? (
@@ -216,7 +211,6 @@ const Form = () => {
 
             <TextField
               label="Email"
-              type="email"
               onBlur={handleBlur}
               onChange={handleChange}
               values={values.email}
