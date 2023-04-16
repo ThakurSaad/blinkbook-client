@@ -30,7 +30,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
-  const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
+  const isNonMobileScreens = useMediaQuery("(min-width: 1000px)");
 
   const theme = useTheme();
   const neutralLight = theme.palette.neutral.light;
@@ -58,14 +58,14 @@ const Navbar = () => {
         >
           BlinkBook
         </Typography>
-        {isNonMobileScreen && (
+        {isNonMobileScreens && (
           <FlexBetween
             backgroundColor={neutralLight}
             borderRadius="9px"
             gap="3rem"
             padding="0.1rem 1.5rem"
           >
-            <InputBase placeholder="Search BlinkBook" />
+            <InputBase placeholder="Search..." />
             <IconButton>
               <Search />
             </IconButton>
@@ -74,7 +74,7 @@ const Navbar = () => {
       </FlexBetween>
 
       {/* DESKTOP NAV */}
-      {isNonMobileScreen ? (
+      {isNonMobileScreens ? (
         <FlexBetween gap="2rem">
           <IconButton onClick={() => dispatch(setMode())}>
             {theme.palette.mode === "dark" ? (
@@ -120,7 +120,7 @@ const Navbar = () => {
       )}
 
       {/* MOBILE NAV */}
-      {!isNonMobileScreen && isMobileMenuToggled && (
+      {!isNonMobileScreens && isMobileMenuToggled && (
         <Box
           position="fixed"
           right="0"
@@ -149,8 +149,8 @@ const Navbar = () => {
             gap="3rem"
           >
             <IconButton
-              sx={{ fontSize: "25px" }}
               onClick={() => dispatch(setMode())}
+              sx={{ fontSize: "25px" }}
             >
               {theme.palette.mode === "dark" ? (
                 <DarkMode sx={{ fontSize: "25px" }} />
