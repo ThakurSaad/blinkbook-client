@@ -71,10 +71,11 @@ const Form = () => {
       }
     );
     const savedUser = savedUserResponse.json();
-
     onSubmitProps.resetForm();
 
-    if (savedUser) setPageType("login");
+    if (savedUser) {
+      setPageType("login");
+    }
   };
 
   const login = async (values, onSubmitProps) => {
@@ -86,7 +87,6 @@ const Form = () => {
       body: JSON.stringify(values),
     });
     const loggedIn = await loggedInResponse.json();
-
     onSubmitProps.resetForm();
 
     if (loggedIn) {
