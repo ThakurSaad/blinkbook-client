@@ -56,7 +56,7 @@ const Form = () => {
   const isRegister = pageType === "register";
 
   const register = async (values, onSubmitProps) => {
-    // FormData() for sending form info with image
+    // this allows us to send form info with image
     const formData = new FormData();
     for (let value in values) {
       formData.append(value, values[value]);
@@ -70,7 +70,7 @@ const Form = () => {
         body: formData,
       }
     );
-    const savedUser = savedUserResponse.json();
+    const savedUser = await savedUserResponse.json();
     onSubmitProps.resetForm();
 
     if (savedUser) {
@@ -118,7 +118,7 @@ const Form = () => {
         setFieldValue,
         resetForm,
       }) => (
-        <form>
+        <form onSubmit={handleSubmit}>
           <Box
             display="grid"
             gap="30px"
@@ -191,7 +191,9 @@ const Form = () => {
                         {...getRootProps()}
                         border={`2px dashed ${palette.primary.main}`}
                         p="1rem"
-                        sx={{ "&:hover": { cursor: "pointer" } }}
+                        sx={{
+                          "&:hover": { cursor: "pointer" },
+                        }}
                       >
                         <input {...getInputProps()} />
                         {!values.picture ? (
@@ -211,6 +213,7 @@ const Form = () => {
 
             <TextField
               label="Email"
+              type="email"
               onBlur={handleBlur}
               onChange={handleChange}
               values={values.email}
