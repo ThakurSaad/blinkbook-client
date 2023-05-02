@@ -18,9 +18,12 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   };
 
   const getUserPosts = async () => {
-    const response = await fetch(`http://localhost:3001/${userId}/posts`, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
+    const response = await fetch(
+      `http://localhost:3001/posts/${userId}/posts`,
+      {
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
     const data = await response.json();
 
     dispatch(setPosts({ posts: data }));
@@ -29,7 +32,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
   useEffect(() => {
     if (isProfile) getUserPosts();
     else getPosts();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [isProfile]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <>
