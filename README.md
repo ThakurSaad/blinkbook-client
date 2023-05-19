@@ -1,6 +1,6 @@
 # $\Large{BlinkBook}$
 
-# $\mathcal{\color{purple}{this \ is \ a \ paragraph}}$
+$\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$
 
 <!-- # $\Large{hello}$ -->
 
@@ -18,7 +18,7 @@
 
 <!-- 10. $\mathbb{\color{teal}{this \ is \ a } \ \color{magenta}{paragraph \ in \ another \ font}}$ -->
 
-- [$\mathcal{\color{purple}{BlinkBook \ Server}}$](https://github.com/ThakurSaad/blinkbook-server)
+- [BlinkBook Server](https://github.com/ThakurSaad/blinkbook-server)
 - [Project Description](https://github.com/ThakurSaad/blinkbook-client#project-description)
 
 ## $\Large{Some \ interesting \ features \ I \ developed}$
