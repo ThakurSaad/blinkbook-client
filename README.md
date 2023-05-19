@@ -18,10 +18,10 @@
 
 <!-- 10. $\mathbb{\color{teal}{this \ is \ a } \ \color{magenta}{paragraph \ in \ another \ font}}$ -->
 
-- [BlinkBook Server](https://github.com/ThakurSaad/blinkbook-server)
+- [$\mathcal{\color{purple}{BlinkBook \ Server}}$](https://github.com/ThakurSaad/blinkbook-server)
 - [Project Description](https://github.com/ThakurSaad/blinkbook-client#project-description)
 
-## Some interesting features I developed
+## $\Large{Some interesting features I developed}$
 
 1. Viewing newsfeed upon login
 
@@ -39,7 +39,7 @@
 
 ![BlinkBook 2](<https://github.com/ThakurSaad/blinkbook-client/blob/main/src/assets/blinkbook%20(2).png>)
 
-## Project Description
+## $\Large{Project Description}$
 
 BlinkBook is a social media project. The main features are:
 
