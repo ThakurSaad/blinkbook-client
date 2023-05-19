@@ -1,7 +1,7 @@
 # $\Large{BlinkBook}$
 
 - [BlinkBook Server](https://github.com/ThakurSaad/blinkbook-server)
-- [Project Description](https://github.com/ThakurSaad/blinkbook-client#project-description)
+- [Project Description](https://github.com/ThakurSaad/blinkbook-client#largeproject--description)
 
 ## $\Large{Some \ interesting \ features \ I \ developed}$
 
