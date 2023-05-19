@@ -1,6 +1,6 @@
 # $\Large{BlinkBook}$
 
-1. $\mathcal{\color{purple}{this \ is \ a \ paragraph}}$
+# $\mathcal{\color{purple}{this \ is \ a \ paragraph}}$
 
 <!-- # $\Large{hello}$ -->
 
