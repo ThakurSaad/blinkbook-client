@@ -1,5 +1,7 @@
 # BlinkBook
 
+$\mathcal{\color{purple}{this \ is \ a \ paragraph} \ \color{cyan}{in \ another \ font}}$
+
 - [BlinkBook Server](https://github.com/ThakurSaad/blinkbook-server)
 - [Project Description](https://github.com/ThakurSaad/blinkbook-client#project-description)
 
