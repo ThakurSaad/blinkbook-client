@@ -1,6 +1,6 @@
 # $\Large{BlinkBook}$
 
-$\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$
+<!-- $\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$ -->
 
 <!-- # $\Large{hello}$ -->
 
@@ -27,15 +27,15 @@ $\mathcal{\color{purple} \Large{1. \ Viewing \ newsfeed \ upon \ login}}$
 
 ![BlinkBook 1](<https://github.com/ThakurSaad/blinkbook-client/blob/main/src/assets/blinkbook%20(1).png>)
 
-$\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$ 2. Newsfeed in dark mode
+$\mathcal{\color{purple} \Large{2. \ Newsfeed \ in \ dark \ mode}}$
 
 ![BlinkBook 4](<https://github.com/ThakurSaad/blinkbook-client/blob/main/src/assets/blinkbook%20(4).png>)
 
-$\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$ 3. Viewing friends profile
+$\mathcal{\color{purple} \Large{3. \ Viewing \ friends \ profile}}$
 
 ![BlinkBook 3](<https://github.com/ThakurSaad/blinkbook-client/blob/main/src/assets/blinkbook%20(3).png>)
 
-$\mathcal{\color{purple} \Large{this \ is \ a \ paragraph}}$ 4. Uploading an image for status
+$\mathcal{\color{purple} \Large{4. \ Uploading \ an \ image \ for \ status}}$
 
 ![BlinkBook 2](<https://github.com/ThakurSaad/blinkbook-client/blob/main/src/assets/blinkbook%20(2).png>)
 
