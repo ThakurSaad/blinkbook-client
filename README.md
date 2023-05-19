@@ -1,6 +1,7 @@
 # BlinkBook
 
 - [BlinkBook Server](https://github.com/ThakurSaad/blinkbook-server)
+- [Project Description](https://github.com/ThakurSaad/blinkbook-client#project-description)
 
 ## Some interesting features I developed
 
@@ -25,9 +26,9 @@
 BlinkBook is a social media project. The main features are:
 
 - Light mode and dark mode.
-- Users can post status with image.
+- Users can post statuses with images.
 - Like/unlike posts.
-- Add/remove friends from friendlist.
+- Add/remove friends from the friend list.
 - View newsfeed.
-- View own profile.
-- View other users proflie.
+- View your own profile.
+- View other users' profiles.
